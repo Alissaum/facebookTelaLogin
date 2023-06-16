@@ -67,6 +67,10 @@ button {
   border: 1px solid #dddddd;
 }
 
+input:focus {
+  outline-color: #1877f2;
+}
+
 .btnEntrar {
   background-color: #1877f2;
   border: none;

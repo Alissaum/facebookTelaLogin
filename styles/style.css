@@ -131,3 +131,18 @@ p {
   text-decoration: underline;
   opacity: 0.6;
 }
+
+@media (min-width: 318px) and (max-width: 767px) {
+  * {
+    font-size: 10px;
+  }
+
+  body {
+    min-width: 10vw;
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: column;
+  }
+}

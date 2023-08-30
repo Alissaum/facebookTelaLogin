@@ -25,6 +25,7 @@ body {
 
 .logoFacebook {
   height: 10rem;
+  margin-left: -3rem;
 }
 
 h1 {
@@ -144,5 +145,9 @@ p {
   .principal {
     display: flex;
     flex-direction: column;
+  }
+
+  .logoFacebook {
+    margin-left: 0;
   }
 }
